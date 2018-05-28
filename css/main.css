@@ -1,0 +1,193 @@
+/**** Patti Raab
+	 Skillcrush Milestone Portfolio Project
+	 May 27, 2018	
+****/
+/**** BASE STYLES ****/
+body {
+	font-family: 'Sansita', san-serif;
+}
+
+a.one:link, a.one:visited, a.one:hover, a.one:active {
+	color: #FA0075;
+	text-decoration: none;   
+}
+
+a.two:link, a.two:visited, a.two:hover, a.two:active {
+	color: #585858;
+	text-decoration: none;
+}
+
+header h1, header ul li a, header h2 span
+{
+	color: #FA0075;
+}
+
+#portfolio, #about, #contact h3 {
+	color: #FA0075;
+	font-size: 30px;
+	margin: 0 auto;
+	padding-top: 36px;
+	text-align: center;
+}
+
+/**** GRID ****/
+
+.full-width, .half-width, .third-width {
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+
+.full-width {
+	width: 100%;
+}
+
+.half-width  {
+	float: left;
+	width: 50%;
+}
+
+.third-width {
+	float: left;
+	width: 33.33%;
+}
+
+/* --- Clear floats after the columns --- */
+.full-width:after {
+    clear: both;
+	content: "";
+    display: table;
+}
+
+/**** HEADER ****/
+header {
+	height:80px;
+}
+
+header h1 {
+	font-size: 38px;
+	font-style: italic;
+	text-align: left;
+	padding-left: 40px;
+	vertical-align: middle;
+}
+
+nav {
+	float: right;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 20px;
+}
+
+nav ul li {
+	display: inline-block;
+}
+
+nav ul li a {
+	font-size: 24px;
+	padding-left: 60px;
+	text-decoration: none;
+	text-transform: uppercase;
+	vertical-align: middle;
+}
+
+/**** Cool Code ****/
+
+#cool_code {
+	background-image: url("../img/hero-background.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	clear: both;
+	height: 600px;
+	opacity: .8;
+}
+
+#cool_code h2 {
+	color: #FFFFFF;
+	clear: none;
+	font-family: 'Kameron', serif;
+	font-size: 64px;
+	line-height: 80px;
+	padding-top: 250px;
+	padding-left: 40px;
+	width: 600px;
+}
+
+/**** PORTFOLIO ****/
+
+#portfolio {
+	background-color: #FDF2E7;
+	height: 700px;
+	margin: 0 auto;
+	clear: both;
+}
+
+#portfolio  h4 {
+	color: #0039E6;
+	font-size: 28px;
+	font-style: italic;
+	margin-bottom: 10px;
+	text-align: center;
+	font-weight: bold;
+}
+
+#portfolio h5 {
+	color: #585858;
+	font-size: 24px;
+	margin-top: 0px;
+	margin-bottom: 15px;
+	text-align: center;
+	font-weight: bold;
+}
+
+#portfolio img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+}
+
+/**** ABOUT ****/
+
+#about  {
+	clear: both;
+	height: 600px;
+	background-image: url("../img/about-me.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+#about p {
+	color: #585858;
+	font-family: 'Kameron', serif;
+	font-size: 2vw;
+	padding-left: 10%;
+	text-align: left;	
+}
+
+#about p span {
+	color: #0039E6;
+	font-style: italic;
+}
+
+#quote p {
+	font-family: 'Sansita', san-serif;
+	padding-left: 55%;
+	padding-right: 15%;
+}
+
+/**** CONTACT ****/
+#contact {
+	clear: both;
+}
+
+#contact  p {
+	text-align: center;
+	font-family: 'Kameron', serif;
+	font-size: 30px;
+	padding-left: 10px;
+}
+
+
+
+
+
